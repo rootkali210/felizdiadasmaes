@@ -1,0 +1,68 @@
+body{
+    background: rgb(201, 38, 38);
+    background: linear-gradient(90deg, rgba(255,208,245,1) 0%, rgba(203,148,233,1) 100%);
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    display: grid;
+    }
+h1{
+    color: rgb(240, 3, 3);
+    font-size: 100px;
+    }
+h2 {
+    color: rgb(14, 6, 9);
+    font-size: 50px;
+    }
+p{
+    color: rgb(66, 3, 85);
+    font-size: 15px;
+    }
+.mae{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+.filho{
+    padding: 5%;
+    }
+.msg{
+padding: 5%;
+    }
+img{
+    width: 300px;
+    height: 600px;
+    border-radius: 30px;
+}
+    @media only screen and (max-width: 600px) {
+    body{
+        background: radial-gradient(circle, rgb(223, 11, 11) 0%, rgb(214, 3, 20) 100%);
+        text-align: center;
+        font-family: 'Vollkorn', serif;
+    }
+    h1{
+        color: rgba(240, 3, 106,1);
+        font-size: 50px;
+    }
+    h2{
+    color: rgba(240, 3, 106,1);
+    font-size: 35px;
+    }
+    p{
+    color: rgb(85, 3, 3);
+    font-size: 20px;
+    }
+    .mae{
+    padding: 1%;
+    }
+    .filho{
+    padding: 1%;
+    }
+    .msg{
+    padding: 10%;
+    margin-bottom: 50px;
+    }
+    img{
+        width: 150px;
+        height: 300px;
+        border-radius: 20px;
+    }
+}
